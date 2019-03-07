@@ -17,3 +17,8 @@ Screenshots from the final app:
 
 <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image17.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image18.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image19.png?raw=true">
 <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image20.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image21.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image22.png?raw=true">
+
+
+## Acknowledgments
+
+Icons used in this application are provded free of charge by [Flaticon]. (https://www.flaticon.com/)
