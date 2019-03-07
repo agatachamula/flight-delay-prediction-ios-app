@@ -4,7 +4,7 @@ This project is a part of Bachelor Thesis for Computer Science Degree titled "Sy
 
 ##Prediction model
 
-Prediction model used for this app is implemented in [this repository.] (https://github.com/agatachamula/flight-delay-prediction-model)
+Prediction model used for this app is implemented in [this repository.](https://github.com/agatachamula/flight-delay-prediction-model)
 Trained in python, exported using coremltools into format .mlmodel format suitable for programming in SWIFT.
 
 ## Final app
@@ -21,4 +21,4 @@ Screenshots from the final app:
 
 ## Acknowledgments
 
-Icons used in this application are provded free of charge by [Flaticon]. (https://www.flaticon.com/)
+Icons used in this application are provded free of charge by [Flaticon](https://www.flaticon.com/).
