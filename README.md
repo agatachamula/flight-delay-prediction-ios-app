@@ -9,6 +9,10 @@ Trained in python, exported using coremltools into format .mlmodel format suitab
 
 ## Final app
 
+User inputs their flight information with the help of drop down list.
+Using dictionaries, the app translates user input from strings to numerical values that are used as an input for the prediction model.
+Outpuot of the model is a numerical value corresponding to class of delay. This value is then translated into image and text displayed for the user on the screen.
+
 Screenshots from the final app:
 
 <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image17.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image18.png?raw=true"> <img src="https://github.com/agatachamula/flight-delay-prediction-ios-app/blob/master/Screens/image19.png?raw=true">
