@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FlightDelay!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xs-mi-KKq">
+                                <rect key="frame" x="72" y="145" width="231" height="57"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="41"/>
+                                <color key="textColor" red="0.75294117650000003" green="0.99215686270000003" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OM4-1X-CSC">
+                                <rect key="frame" x="106" y="96" width="163" height="41"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <color key="textColor" red="0.75294117647058822" green="0.99215686274509807" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your flight delay predictor!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ4-F0-k96">
+                                <rect key="frame" x="57" y="498" width="261" height="31"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.97647058823529409" green="0.37254901960784315" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="V5o-3c-sqo">
+                                <rect key="frame" x="92" y="249" width="191" height="191"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.21176470588235294" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iZ4-F0-k96" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Fa-55-7F5"/>
+                            <constraint firstItem="V5o-3c-sqo" firstAttribute="top" secondItem="5xs-mi-KKq" secondAttribute="bottom" constant="47" id="2vd-ga-Fgq"/>
+                            <constraint firstItem="OM4-1X-CSC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7Ke-Hw-TKp"/>
+                            <constraint firstItem="OM4-1X-CSC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Dj8-gB-3fV"/>
+                            <constraint firstItem="V5o-3c-sqo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GL7-kS-foB"/>
+                            <constraint firstItem="V5o-3c-sqo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="Ssi-69-ohf"/>
+                            <constraint firstItem="iZ4-F0-k96" firstAttribute="top" secondItem="V5o-3c-sqo" secondAttribute="bottom" constant="58" id="VVo-bC-BcG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V5o-3c-sqo" secondAttribute="trailing" constant="92" id="VxK-OB-Tfa"/>
+                            <constraint firstItem="5xs-mi-KKq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xeh-OE-AiX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iZ4-F0-k96" secondAttribute="bottom" constant="138" id="eU3-Hd-cTo"/>
+                            <constraint firstItem="iZ4-F0-k96" firstAttribute="top" secondItem="V5o-3c-sqo" secondAttribute="bottom" constant="58" id="r0g-vR-MY5"/>
+                            <constraint firstItem="5xs-mi-KKq" firstAttribute="top" secondItem="OM4-1X-CSC" secondAttribute="bottom" constant="8" id="wsc-nh-l8W"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>
